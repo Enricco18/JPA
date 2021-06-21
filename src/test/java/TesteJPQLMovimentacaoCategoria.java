@@ -24,7 +24,7 @@ public class TesteJPQLMovimentacaoCategoria {
         List<Movimentacao> movimentacoes = query.getResultList();
         for (Movimentacao movimentacao : movimentacoes) {
             System.out.println("Descrição: " + movimentacao.getCategoria());
-            System.out.println("Valor: " + movimentacao.getValor());s
+            System.out.println("Valor: " + movimentacao.getValor());
             System.out.println("Tipo: " + movimentacao.getTipoMovimentacao());
         }
     }
